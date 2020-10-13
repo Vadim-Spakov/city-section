@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: DM Sans, normal;
 }
 
 ul {
@@ -29,4 +29,21 @@ ul {
 .cities {
   padding: 43px 20px 43px 20px;
   background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+}
+
+.card-item__text {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.card-list-buttom {
+  width: 80px;
+  height: 16px;
+  background-color: #f0d1a5;
+  border-radius: 4px;
 }
