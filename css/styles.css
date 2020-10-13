@@ -1,0 +1,32 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --button-color: #ffffff;
+  --background-button: #f5f4fa;
+  --accent-white-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* mobile */
+
+.conteiner {
+  width: 320px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0;
+  background-color: red;
+}
+
+.cities {
+  padding: 43px 20px 43px 20px;
+  background-color: #ffffff;
+}
