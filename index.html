@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -14,7 +17,7 @@
       <div class="conteiner conteiner-cities">
         <ul class="cities">
           <li class="cities-item">
-            <button class="card-list-buttom" type="button">cafe</button>
+            <div class="cities-text">CAFE</div>
             <ul class="card-list">
               <li class="card-item">
                 <p class="card-item__city">Chicago</p>
@@ -24,7 +27,7 @@
               </li>
               <li class="card-item">
                 <ul class="work-days">
-                  <li class="">
+                  <li class="time-day">
                     <p class="days">Monday - Friday</p>
                     <p class="hour">06:00 AM - 10:00 PM</p>
                   </li>
@@ -46,7 +49,7 @@
 
         <ul class="cities">
           <li class="cities-item">
-            <button class="card-list-buttom" type="button">foodtruck</button>
+            <div class="cities-text-green">FOODTRUCK</div>
             <ul class="card-list">
               <li class="card-item">
                 <p class="card-item__city">Los Angeles</p>
@@ -56,7 +59,7 @@
               </li>
               <li class="card-item">
                 <ul class="work-days">
-                  <li class="">
+                  <li class="time-day">
                     <p class="days">Monday - Friday</p>
                     <p class="hour">06:00 AM - 10:00 PM</p>
                   </li>
@@ -78,8 +81,8 @@
 
         <ul class="cities">
           <li class="cities-item">
-            <p style="text-align: center"><button class="card-list-buttom" type="button" name="cafe">cafe</button></p>
-            
+            <div class="cities-text">CAFE</div>
+
             <ul class="card-list">
               <li class="card-item">
                 <p class="card-item__city">New York</p>
@@ -89,7 +92,7 @@
               </li>
               <li class="card-item">
                 <ul class="work-days">
-                  <li class="">
+                  <li class="time-day">
                     <p class="days">Monday - Friday</p>
                     <p class="hour">06:00 AM - 10:00 PM</p>
                   </li>
@@ -108,9 +111,10 @@
             </ul>
           </li>
         </ul>
-
-        <button class="cities-buttom" type="button">Our Locations</button>
-        <button type="button">Franchise</button>
+        <div class="button">
+          <button class="button-red" type="button">Our Locations ></button>
+          <button class="button-white" type="button">Franchise ></button></div
+        >
       </div>
     </section>
   </body>

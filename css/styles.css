@@ -1,10 +1,9 @@
 :root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --button-color: #ffffff;
-  --background-button: #f5f4fa;
-  --accent-white-color: rgba(255, 255, 255, 0.6);
+  --item__text-color: #907e82;
+  --title-text-color: #000000;
+  --time-color: #ffa5ba;
+  --cities-text: #f0d1a5;
+  --background-color: #fff5f6;
 }
 
 body {
@@ -23,14 +22,21 @@ ul {
   padding-left: 50px;
   padding-right: 50px;
   margin: 0;
-  background-color: red;
+  background-color: var(--background-color);
+  position: absolute;
+  top: 84px;
 }
 
 .cities {
-  padding: 43px 20px 43px 20px;
+  position: relative;
+  top: 0;
+  padding: 43px 20px;
   background-color: #ffffff;
   border-radius: 24px;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+}
+.card-item {
+  z-index: 3;
 }
 
 .card-item__text {
@@ -39,11 +45,96 @@ ul {
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
+  color: var(--item__text-color);
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e1e1e1;
 }
 
-.card-list-buttom {
+.cities-text {
+  background-color: var(--cities-text);
+  color: #ffffff;
+  display: block;
+  border-radius: 4px;
+  text-align: center;
   width: 80px;
   height: 16px;
-  background-color: #f0d1a5;
+}
+
+.cities-text-green {
+  background-color: #c2e297;
+  color: #ffffff;
+  display: block;
   border-radius: 4px;
+  text-align: center;
+  width: 130px;
+  height: 16px;
+}
+
+.work-days {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 186%;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.time-day {
+  margin-bottom: 10px;
+}
+
+.days {
+  color: var(--title-text-color);
+  margin: 0;
+}
+
+.hour {
+  color: var(--time-color);
+  margin: 0;
+}
+
+.cities-contacts {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--item__text-color);
+  padding-top: 25px;
+}
+.button {
+  margin-top: 54px;
+  padding-left: 30px;
+}
+
+button {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  width: 162px;
+  height: 44px;
+  border-radius: 22px;
+  border: none;
+}
+
+.button-red {
+  background-color: #d41342;
+  color: #fff;
+}
+
+.button-white {
+  background-color: #fff;
+  color: #d41443;
+}
+
+.button-red:focus,
+.button-red:hover {
+  color: #d41443;
+  background-color: #fff;
+}
+
+.button-white:focus,
+.button-white:hover {
+  color: #fff;
+  background-color: #d41443;
 }
